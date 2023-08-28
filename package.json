@@ -1,0 +1,40 @@
+{
+  "name": "aquila",
+  "version": "1.0.0",
+  "description": "Simple react component library",
+  "main": "dist/bundle.js",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=development webpack --mode production",
+    "build-prod": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpha-nero1/Aquila.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpha-nero1/Aquila/issues"
+  },
+  "homepage": "https://github.com/alpha-nero1/Aquila#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.4"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/react": "^18.2.15",
+    "cross-env": "^7.0.3",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.3.2",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
